@@ -86,7 +86,7 @@ router.get('/:id', async (req, res) => {
 
 // --------- update atualizar pessoa pelo id ----------
 
-router.patch('/:id', async (req, res) => {
+router.put('/:id', async (req, res) => {
 
     // extrair o dado da requisição, pela url = req.params
     const id = req.params.id
